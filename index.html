@@ -13,14 +13,14 @@
 <body>
     <div class="weather-app">
        <header>
-        <form class="search-form">
-            <input type="text" name="text" id="text" placeholder="Enter text here...." required class="search-form-input">
+        <form class="search-form" id="search-form">
+            <input type="text" id="search-input" name="text" id="text" placeholder="Enter text here...." required class="search-form-input">
             <input type="submit" value="Search" class="search-form-button">
         </form>
     </header>
     <main class="weather-app-data">
         <div class="city">
-            <h1>Milan</h1>
+            <h1 id="search-output">Milan</h1>
             <p>
                 Tuesday <span id="color-pink">19:32</span> | moderate rain
                 <br>
