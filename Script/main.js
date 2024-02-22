@@ -8,6 +8,7 @@ function refreshWeather(response) {
     let preciElement = document.querySelector("#precipitation");
     let timeElement = document.querySelector("#time");
     let date = new Date (response.data.time * 1000);
+    let iconElement = document.querySelector(".weather-emoji");
 
     timeElement.innerHTML = formatTime(date);
     preciElement.innerHTML = response.data.temperature.feels_like;
@@ -16,6 +17,7 @@ function refreshWeather(response) {
     windElement.innerHTML = response.data.wind.speed;
     cityElement.innerHTML = response.data.city;
     tempElement.innerHTML = Math.round(temperature);
+    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" />`;
 }
 function formatTime(date) {
     let hour = date.getHours();
