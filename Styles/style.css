@@ -2,7 +2,19 @@ body{
     background:#F9F7FE;
     font-family: "Old Standard TT", serif;
 }
-
+footer{
+    position: absolute;
+    bottom: 0%;
+    height: 40px;
+    width: 100%;
+   background-color: aliceblue;
+   text-align: center;
+   padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #430f58;
+}
 .weather-app{
     background: white;
     max-width: 600px;
@@ -10,7 +22,6 @@ body{
     padding: 10px;
     border-radius: 10px;
 }
-
 .search-form-input
 {
     border: none;
@@ -28,12 +39,25 @@ body{
     border-radius: 15px;
     font-size: 16px;
 }
-footer{
-    position: absolute;
-    bottom: 0%;
-    height: 40px;
-    width: 100%;
-   background-color: aliceblue;
-   text-align: center;
-   padding: 10px;
+.weather-app-data{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.weather-temp{
+    font-size: 88px;
+    font-weight: bold;
+}
+.weather-app-temp{
+    display: flex;
+}
+.weather-emoji{
+    font-size: 50px;
+}
+.weather-unit{
+    font-size: 35px;
+    margin-top: 8px;
+}
+#color-pink{
+    color: #f70776;
 }
