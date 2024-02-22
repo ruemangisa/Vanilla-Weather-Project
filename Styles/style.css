@@ -1,3 +1,33 @@
+body{
+    background:#F9F7FE;
+    font-family: "Old Standard TT", serif;
+}
+
+.weather-app{
+    background: white;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-form-input
+{
+    border: none;
+    border-radius: 15px;
+    background: #F9F7FE;
+    width: 60%;
+    padding: 15px;
+    font-size: 15px;
+}
+.search-form-button{
+    background: #885df1;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
 footer{
     position: absolute;
     bottom: 0%;
