@@ -18,24 +18,26 @@
             <input type="submit" value="Search" class="search-form-button">
         </form>
     </header>
-    <main>
-        <div>
+    <main class="weather-app-data">
+        <div class="city">
             <h1>Milan</h1>
             <p>
                 Tuesday 19:32, moderate rain
                 <br>
-                Humidity: 87%, Wind: 7.2km/h
+                Humidity: <span id="color-pink">87%</span> | Wind: <span id="color-pink">7.2km/h</span> 
             </p>
         </div>
-        <div>
-            🌦️12°C
+        <div class="weather-app-temp">
+            <div class="weather-emoji">🌦️</div>
+           <div class="weather-temp">12</div>
+           <div class="weather-unit">°C</div>
         </div>
     </main> 
     </div>
     
     <footer>
         Developed by 
-        <a href="https://www.linkedin.com/in/ruth-mangisa-3571bb199" target="_blank">Rue Mangisa</a>  on 
+        <a href="https://www.linkedin.com/in/ruth-mangisa-3571bb199" target="_blank">Rue Mangisa</a>  is open-sourced on
         <a href="https://github.com/ruemangisa" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a> and hosted on 
         <a href="https://vanilla-weather-app-rm.netlify.app/" target="_blank">Netlify</a> 
     </footer>
