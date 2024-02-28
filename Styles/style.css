@@ -62,3 +62,8 @@ a{
 .color-pink{
     color: #f70776;
 }
+.forcast-weather{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
