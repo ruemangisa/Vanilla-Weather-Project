@@ -61,7 +61,7 @@ function handleSearchSubmit(event) {
     let forecastHtml = "";
   
     response.data.daily.forEach(function (day, index) {
-      if (index < 5) {
+      if (index < 7) {
         forecastHtml =
           forecastHtml +
           `
@@ -70,7 +70,7 @@ function handleSearchSubmit(event) {
   
           <img src="${day.condition.icon_url}" class="weather-forecast-icon" />
           <div class="weather-forecast-temperatures">
-            <div class="color-pink">
+            <div class="weather-forecast-temperature color-pink">
               <strong>${Math.round(day.temperature.maximum)}º</strong>
             </div>
             <div class="weather-forecast-temperature light-pink">${Math.round(

@@ -75,3 +75,14 @@ a{
     margin: 5px auto;
     padding-right: 5px;
 }
+.weather-forecast-temperatures{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.weather-forecast-temperature {
+    padding: 0px 10px;
+}
+.weather-forecast-date{
+    text-align: center;
+}
