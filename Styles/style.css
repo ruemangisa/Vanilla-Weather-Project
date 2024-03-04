@@ -6,6 +6,7 @@ footer{
     position: absolute;
     bottom: 0%;
     height: 60px;
+    width: 700px;
    background-color: #fcfafa;
    text-align: center;
    padding: 10px;
@@ -60,6 +61,9 @@ a{
 }
 .color-pink{
     color: #f70776;
+}
+.light-pink{
+    color: lightpink;
 }
 #forcast-weather{
     display: flex;

@@ -70,10 +70,10 @@ function handleSearchSubmit(event) {
   
           <img src="${day.condition.icon_url}" class="weather-forecast-icon" />
           <div class="weather-forecast-temperatures">
-            <div class="weather-forecast-temperature">
+            <div class="color-pink">
               <strong>${Math.round(day.temperature.maximum)}º</strong>
             </div>
-            <div class="weather-forecast-temperature">${Math.round(
+            <div class="weather-forecast-temperature light-pink">${Math.round(
               day.temperature.minimum
             )}º</div>
           </div>
