@@ -6,7 +6,7 @@ footer{
     position: absolute;
     bottom: 0%;
     height: 60px;
-    width: 700px;
+    width: 900px;
    background-color: #fcfafa;
    text-align: center;
    padding: 10px;
@@ -18,7 +18,7 @@ a{
 }
 .weather-app{
     background: white;
-    max-width: 700px;
+    max-width: 900px;
     margin: 40px auto;
     padding: 10px;
     border-radius: 10px;
@@ -69,4 +69,9 @@ a{
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
+}
+.weather-forecast-icon{
+    display: block;
+    margin: 5px auto;
+    padding-right: 5px;
 }
